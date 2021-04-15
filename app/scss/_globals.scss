@@ -1,0 +1,20 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    background-color: #303030;
+
+
+    /* Turn off arrows for input type number */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
